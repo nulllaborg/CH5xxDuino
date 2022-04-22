@@ -1,11 +1,11 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# CH5xxDuino-Nano-rescue_C-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue
+# C-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue
 #
-DEF CH5xxDuino-Nano-rescue_C-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue C 0 10 N N 1 F N
+DEF C-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue C 0 10 N N 1 F N
 F0 "C" 10 70 50 H V L CNN
-F1 "CH5xxDuino-Nano-rescue_C-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue" 10 -80 50 H V L CNN
+F1 "C-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue" 10 -80 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -19,11 +19,11 @@ X ~ 2 0 -100 80 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CH5xxDuino-Nano-rescue_CH552G-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue
+# CH552G-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue
 #
-DEF CH5xxDuino-Nano-rescue_CH552G-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue U 0 20 Y Y 1 F N
+DEF CH552G-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue U 0 20 Y Y 1 F N
 F0 "U" -350 650 50 H V C CNN
-F1 "CH5xxDuino-Nano-rescue_CH552G-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue" 0 -700 50 H V C CNN
+F1 "CH552G-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue" 0 -700 50 H V C CNN
 F2 "" 150 350 50 H I C CNN
 F3 "" 150 350 50 H I C CNN
 DRAW
@@ -47,11 +47,11 @@ X P1.1/T2EX/CAP2//TIN1/AIN0 9 950 50 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
-# CH5xxDuino-Nano-rescue_JACK_PIN8-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue
+# JACK_PIN8-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue
 #
-DEF CH5xxDuino-Nano-rescue_JACK_PIN8-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue JP 0 40 Y Y 1 F N
+DEF JACK_PIN8-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue JP 0 40 Y Y 1 F N
 F0 "JP" 0 450 60 H V C CNN
-F1 "CH5xxDuino-Nano-rescue_JACK_PIN8-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue" 0 -450 60 H V C CNN
+F1 "JACK_PIN8-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue" 0 -450 60 H V C CNN
 F2 "" 0 -200 60 H I C CNN
 F3 "" 0 -200 60 H I C CNN
 DRAW
@@ -82,11 +82,11 @@ X ~ 8 -150 -350 100 R 20 20 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CH5xxDuino-Nano-rescue_LED-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue
+# LED-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue
 #
-DEF CH5xxDuino-Nano-rescue_LED-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue D 0 40 N N 1 F N
+DEF LED-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue D 0 40 N N 1 F N
 F0 "D" 0 100 50 H V C CNN
-F1 "CH5xxDuino-Nano-rescue_LED-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue" 0 -100 50 H V C CNN
+F1 "LED-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue" 0 -100 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -105,11 +105,11 @@ X A 2 150 0 100 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CH5xxDuino-Nano-rescue_R-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue
+# R-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue
 #
-DEF CH5xxDuino-Nano-rescue_R-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue R 0 10 N N 1 F N
+DEF R-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue R 0 10 N N 1 F N
 F0 "R" 30 20 50 H V L CNN
-F1 "CH5xxDuino-Nano-rescue_R-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue" 30 -40 50 H V L CNN
+F1 "R-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue" 30 -40 50 H V L CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 $FPLIST
@@ -122,11 +122,11 @@ X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# CH5xxDuino-Nano-rescue_SW_Push-Switch-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue
+# SW_Push-Switch-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue
 #
-DEF CH5xxDuino-Nano-rescue_SW_Push-Switch-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue SW 0 40 N N 1 F N
+DEF SW_Push-Switch-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue SW 0 40 N N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "CH5xxDuino-Nano-rescue_SW_Push-Switch-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue" 0 -60 50 H V C CNN
+F1 "SW_Push-Switch-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue" 0 -60 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW
@@ -139,11 +139,11 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
-# CH5xxDuino-Nano-rescue_USB_C_Plug_USB2.0-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue
+# USB_C_Plug_USB2.0-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue
 #
-DEF CH5xxDuino-Nano-rescue_USB_C_Plug_USB2.0-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue P 0 40 Y Y 1 F N
+DEF USB_C_Plug_USB2.0-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue P 0 40 Y Y 1 F N
 F0 "P" -400 750 50 H V L CNN
-F1 "CH5xxDuino-Nano-rescue_USB_C_Plug_USB2.0-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue" 800 -800 50 H V R CNN
+F1 "USB_C_Plug_USB2.0-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue" 800 -800 50 H V R CNN
 F2 "" 150 0 50 H I C CNN
 F3 "" 150 0 50 H I C CNN
 $FPLIST
@@ -186,82 +186,6 @@ X VBUS B4 600 600 200 L 50 50 1 1 P N
 X VCONN B5 600 300 200 L 50 50 1 1 B
 X VBUS B9 600 600 200 L 50 50 1 1 P N
 X SHIELD S1 -300 -900 200 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Connector_JACK5*2
-#
-DEF Connector_JACK5*2 JP 0 40 Y Y 1 F N
-F0 "JP" 0 300 60 H V C CNN
-F1 "Connector_JACK5*2" -25 -300 60 H V C CNN
-F2 "" -50 -150 60 H I C CNN
-F3 "" -50 -150 60 H I C CNN
-DRAW
-C -50 -200 30 0 0 0 f
-C -50 -100 30 0 0 0 f
-C -50 0 30 0 0 0 f
-C -50 100 30 0 0 0 f
-C 50 -200 32 0 0 0 f
-C 50 -100 32 0 0 0 f
-C 50 0 32 0 0 0 f
-C 50 100 30 0 0 0 f
-C 50 200 30 0 0 0 f
-S -100 250 100 -250 0 0 0 N
-P 5 0 0 0 -80 230 -80 170 -20 170 -20 230 -80 230 f
-X ~ 1 -200 200 100 R 20 20 1 1 P
-X ~ 10 200 200 100 L 20 20 1 1 P
-X ~ 2 -200 100 100 R 20 20 1 1 P
-X ~ 3 -200 0 100 R 20 20 1 1 P
-X ~ 4 -200 -100 100 R 20 20 1 1 P
-X ~ 5 -200 -200 100 R 20 20 1 1 P
-X ~ 6 200 -200 100 L 20 20 1 1 P
-X ~ 7 200 -100 100 L 20 20 1 1 P
-X ~ 8 200 0 100 L 20 20 1 1 P
-X ~ 9 200 100 100 L 20 20 1 1 P
-ENDDRAW
-ENDDEF
-#
-# power_+3V3
-#
-DEF power_+3V3 #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+3V3" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-ALIAS +3.3V
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +3V3 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_+5V
-#
-DEF power_+5V #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -150 50 H I C CNN
-F1 "power_+5V" 0 140 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 2 0 1 0 -30 50 0 100 N
-P 2 0 1 0 0 0 0 100 N
-P 2 0 1 0 0 100 30 50 N
-X +5V 1 0 0 0 U 50 50 1 1 W N
-ENDDRAW
-ENDDEF
-#
-# power_GND
-#
-DEF power_GND #PWR 0 0 Y Y 1 F P
-F0 "#PWR" 0 -250 50 H I C CNN
-F1 "power_GND" 0 -150 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-DRAW
-P 6 0 1 0 0 0 0 -50 50 -50 0 -100 -50 -50 0 -50 N
-X GND 1 0 0 0 D 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

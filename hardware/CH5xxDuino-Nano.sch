@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CH5xxDuino-Nano:C C3
+L CH5xxDuino-Nano-rescue:C-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue C3
 U 1 1 5F2692FE
 P 4500 3400
 F 0 "C3" H 4350 3500 50  0000 L CNN
@@ -26,7 +26,7 @@ F 4 "C49678" H 4500 3400 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH5xxDuino-Nano:C C1
+L CH5xxDuino-Nano-rescue:C-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue C1
 U 1 1 5F26E74E
 P 4700 3400
 F 0 "C1" H 4700 3500 50  0000 L CNN
@@ -38,7 +38,7 @@ F 4 "C49678" H 4700 3400 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH5xxDuino-Nano:R R7
+L CH5xxDuino-Nano-rescue:R-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue R7
 U 1 1 5F275B65
 P 9200 5150
 F 0 "R7" V 9100 5150 50  0000 C CNN
@@ -50,7 +50,7 @@ F 4 "C25623" V 9200 5150 50  0001 C CNN "manf#"
 	0    1    1    0   
 $EndComp
 $Comp
-L CH5xxDuino-Nano:LED D1
+L CH5xxDuino-Nano-rescue:LED-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue D1
 U 1 1 5F2768D1
 P 9550 5150
 F 0 "D1" H 9545 5050 50  0000 C CNN
@@ -81,7 +81,7 @@ D-
 Text Label 3350 3200 2    50   ~ 0
 D+
 $Comp
-L CH5xxDuino-Nano:SW_Push-Switch SW1
+L CH5xxDuino-Nano-rescue:SW_Push-Switch-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue SW1
 U 1 1 5F279575
 P 9300 3050
 F 0 "SW1" H 9285 3215 50  0000 C CNN
@@ -93,7 +93,7 @@ F 4 "C455281" H 9300 3050 50  0001 C CNN "manf#"
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH5xxDuino-Nano:SW_Push-Switch SW2
+L CH5xxDuino-Nano-rescue:SW_Push-Switch-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue SW2
 U 1 1 5F279C62
 P 9300 3450
 F 0 "SW2" H 9315 3615 50  0000 C CNN
@@ -116,7 +116,7 @@ F 3 "" H 8750 2650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH5xxDuino-Nano:R R6
+L CH5xxDuino-Nano-rescue:R-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue R6
 U 1 1 5F27C15F
 P 9800 3450
 F 0 "R6" V 9700 3450 50  0000 C CNN
@@ -129,9 +129,9 @@ F 4 "C702832" V 9800 3450 50  0001 C CNN "manf#"
 $EndComp
 Text Label 10100 3050 2    50   ~ 0
 RST
-Text Label 5850 5100 0    50   ~ 0
+Text Label 5800 5100 0    50   ~ 0
 SWD
-Text Label 5850 4900 0    50   ~ 0
+Text Label 5800 5300 0    50   ~ 0
 SWC
 $Comp
 L power:GND #PWR013
@@ -172,7 +172,7 @@ LINK LED
 Text Notes 2500 2350 0    89   ~ 0
 USB C
 $Comp
-L CH5xxDuino-Nano:R R8
+L CH5xxDuino-Nano-rescue:R-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue R8
 U 1 1 5F2A19DA
 P 3600 2650
 F 0 "R8" V 3460 2640 50  0000 C CNN
@@ -184,7 +184,7 @@ F 4 "C25623" V 3600 2650 50  0001 C CNN "manf#"
 	-1   0    0    1   
 $EndComp
 $Comp
-L CH5xxDuino-Nano:LED D2
+L CH5xxDuino-Nano-rescue:LED-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue D2
 U 1 1 5F2A19E0
 P 3600 3000
 F 0 "D2" H 3595 2900 50  0000 C CNN
@@ -223,47 +223,20 @@ U 1 1 618D84F2
 P 6450 5100
 F 0 "JP3" H 6450 5450 60  0000 C CNN
 F 1 "JACK5*2" H 6450 4800 50  0000 C CNN
-F 2 "ch5xxduino-nano:SMD_CONN_5P" H 6400 4950 60  0001 C CNN
+F 2 "CH5xxDuino-Nano:SMD_CONN_5P" H 6400 4950 60  0001 C CNN
 F 3 "" H 6400 4950 60  0001 C CNN
 	1    6450 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6150 5300 6150 5450
-Wire Wire Line
-	6150 5300 6250 5300
-Wire Wire Line
-	5900 5200 6250 5200
-Wire Wire Line
-	6850 5000 6850 4700
+	6050 4650 6050 5000
 $Comp
-L power:GND #PWR0102
-U 1 1 625FB321
-P 6750 5450
-F 0 "#PWR0102" H 6750 5200 50  0001 C CNN
-F 1 "GND" H 6750 5300 50  0000 C CNN
-F 2 "" H 6750 5450 50  0001 C CNN
-F 3 "" H 6750 5450 50  0001 C CNN
-	1    6750 5450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6750 4900 6650 4900
-Wire Wire Line
-	6650 5100 7000 5100
-Wire Wire Line
-	6650 5200 7000 5200
-Text Label 7000 5100 2    50   ~ 0
-TX0
-Text Label 7000 5200 2    50   ~ 0
-RX0
-$Comp
-L CH5xxDuino-Nano:CH552G U1
+L CH5xxDuino-Nano-rescue:CH552G-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue U1
 U 1 1 62618327
 P 6150 3150
 F 0 "U1" H 5300 3800 50  0000 C CNN
 F 1 "CH552G" H 6150 2450 50  0000 C CNN
-F 2 "ch5xxduino-nano:SOP-16_4.55x10.3mm_P1.27mm" H 6300 3500 50  0001 C CNN
+F 2 "CH5xxDuino-Nano:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 6300 3500 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2008191734_WCH-Jiangsu-Qin-Heng-CH552G_C111292.pdf" H 6300 3500 50  0001 C CNN
 	1    6150 3150
 	1    0    0    -1  
@@ -368,19 +341,7 @@ Text Label 7600 3600 2    50   ~ 0
 RX0
 Text Label 7750 3300 2    50   ~ 0
 LINK
-Wire Wire Line
-	7100 2900 7750 2900
-Text Label 5850 5000 0    50   ~ 0
-DTR&RST
-Wire Wire Line
-	6650 5300 7150 5300
-Wire Wire Line
-	5850 5000 6250 5000
-Wire Wire Line
-	5850 4900 6250 4900
-Wire Wire Line
-	5850 5100 6250 5100
-Text Label 7150 5300 2    50   ~ 0
+Text Label 5800 5200 0    50   ~ 0
 DTR&RST
 Wire Wire Line
 	5150 2900 4500 2900
@@ -412,7 +373,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 3200 3350 3200
 $Comp
-L CH5xxDuino-Nano:USB_C_Plug_USB2.0 P1
+L CH5xxDuino-Nano-rescue:USB_C_Plug_USB2.0-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue P1
 U 1 1 5F2667BA
 P 2600 3100
 F 0 "P1" H 2270 3860 60  0000 C CNN
@@ -448,7 +409,7 @@ NoConn ~ 3200 2800
 Wire Wire Line
 	7100 3300 7750 3300
 $Comp
-L CH5xxDuino-Nano:JACK_PIN8 JP1
+L CH5xxDuino-Nano-rescue:JACK_PIN8-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue JP1
 U 1 1 627B098E
 P 2750 5300
 F 0 "JP1" H 2650 5750 60  0000 L CNN
@@ -459,7 +420,7 @@ F 3 "" H 2750 5100 60  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CH5xxDuino-Nano:JACK_PIN8 JP2
+L CH5xxDuino-Nano-rescue:JACK_PIN8-CH5xxDuino-Nano-CH5xxDuino-Nano-rescue JP2
 U 1 1 627B1F7D
 P 3500 5300
 F 0 "JP2" H 3400 5750 60  0000 L CNN
@@ -554,26 +515,15 @@ Wire Wire Line
 Text Label 4050 5550 2    50   ~ 0
 RST
 $Comp
-L power:+5V #PWR0109
-U 1 1 625D3B97
-P 6850 4700
-F 0 "#PWR0109" H 6850 4550 50  0001 C CNN
-F 1 "+5V" H 6850 4850 50  0000 C CNN
-F 2 "" H 6850 4700 50  0001 C CNN
-F 3 "" H 6850 4700 50  0001 C CNN
-	1    6850 4700
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0110
 U 1 1 625D45CA
-P 5900 5200
-F 0 "#PWR0110" H 5900 5050 50  0001 C CNN
-F 1 "+5V" V 5900 5400 50  0000 C CNN
-F 2 "" H 5900 5200 50  0001 C CNN
-F 3 "" H 5900 5200 50  0001 C CNN
-	1    5900 5200
-	0    -1   -1   0   
+P 6050 4650
+F 0 "#PWR0110" H 6050 4500 50  0001 C CNN
+F 1 "+5V" V 6050 4850 50  0000 C CNN
+F 2 "" H 6050 4650 50  0001 C CNN
+F 3 "" H 6050 4650 50  0001 C CNN
+	1    6050 4650
+	1    0    0    -1  
 $EndComp
 Text Label 2300 5450 0    50   ~ 0
 P11
@@ -606,19 +556,71 @@ Text Label 4050 5150 2    50   ~ 0
 P14
 Text Label 4050 5050 2    50   ~ 0
 P32
-Wire Wire Line
-	6650 5000 6850 5000
-Wire Wire Line
-	6750 4900 6750 5450
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0112
 U 1 1 625DB418
 P 4050 4950
-F 0 "#PWR?" H 4050 4700 50  0001 C CNN
+F 0 "#PWR0112" H 4050 4700 50  0001 C CNN
 F 1 "GND" H 4050 4800 50  0000 C CNN
 F 2 "" H 4050 4950 50  0001 C CNN
 F 3 "" H 4050 4950 50  0001 C CNN
 	1    4050 4950
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	7100 2900 7750 2900
+Text Label 7000 5100 2    50   ~ 0
+TX0
+$Comp
+L power:GND #PWR0102
+U 1 1 625FB321
+P 6750 5450
+F 0 "#PWR0102" H 6750 5200 50  0001 C CNN
+F 1 "GND" H 6750 5300 50  0000 C CNN
+F 2 "" H 6750 5450 50  0001 C CNN
+F 3 "" H 6750 5450 50  0001 C CNN
+	1    6750 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 5300 7150 5300
+Wire Wire Line
+	6650 5200 7000 5200
+Wire Wire Line
+	6650 5100 7000 5100
+Text Label 7000 5200 2    50   ~ 0
+RX0
+Wire Wire Line
+	6650 5000 6850 5000
+Text Label 7150 5300 2    50   ~ 0
+DTR&RST
+Wire Wire Line
+	6750 4900 6650 4900
+Wire Wire Line
+	6750 4900 6750 5450
+$Comp
+L power:+5V #PWR0109
+U 1 1 625D3B97
+P 6850 4700
+F 0 "#PWR0109" H 6850 4550 50  0001 C CNN
+F 1 "+5V" H 6850 4850 50  0000 C CNN
+F 2 "" H 6850 4700 50  0001 C CNN
+F 3 "" H 6850 4700 50  0001 C CNN
+	1    6850 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 5000 6850 4700
+Wire Wire Line
+	5800 5300 6250 5300
+Wire Wire Line
+	5800 5200 6250 5200
+Wire Wire Line
+	5800 5100 6250 5100
+Wire Wire Line
+	6050 5000 6250 5000
+Wire Wire Line
+	6250 4900 6150 4900
+Wire Wire Line
+	6150 4900 6150 5450
 $EndSCHEMATC
